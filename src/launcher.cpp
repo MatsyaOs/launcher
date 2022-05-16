@@ -33,9 +33,9 @@
 
 Launcher::Launcher(bool firstShow, QQuickView *w)
     : QQuickView(w)
-    , m_dockInterface("com.cutefish.Dock",
+    , m_dockInterface("com.matsya.Dock",
                     "/Dock",
-                    "com.cutefish.Dock", QDBusConnection::sessionBus())
+                    "com.matsya.Dock", QDBusConnection::sessionBus())
     , m_hideTimer(new QTimer)
     , m_showed(false)
     , m_leftMargin(0)
@@ -67,7 +67,7 @@ Launcher::Launcher(bool firstShow, QQuickView *w)
         connect(&m_dockInterface, SIGNAL(primaryGeometryChanged()), this, SLOT(updateMargins()));
         connect(&m_dockInterface, SIGNAL(directionChanged()), this, SLOT(updateMargins()));
     } else {
-        QDBusServiceWatcher *watcher = new QDBusServiceWatcher("com.cutefish.Dock",
+        QDBusServiceWatcher *watcher = new QDBusServiceWatcher("com.matsya.Dock",
                                                                QDBusConnection::sessionBus(),
                                                                QDBusServiceWatcher::WatchForUnregistration,
                                                                this);
@@ -129,9 +129,9 @@ bool Launcher::dockAvailable()
 
 bool Launcher::isPinedDock(const QString &desktop)
 {
-    QDBusInterface iface("com.cutefish.Dock",
+    QDBusInterface iface("com.matsya.Dock",
                          "/Dock",
-                         "com.cutefish.Dock",
+                         "com.matsya.Dock",
                          QDBusConnection::sessionBus());
 
     if (!iface.isValid())
@@ -208,4 +208,3 @@ void Launcher::onActiveChanged()
     if (!isActive())
         Launcher::hide();
 }
-

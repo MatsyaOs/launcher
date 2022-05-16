@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 CutefishOS.
+ * Copyright (C) 2021 MatsyaOS.
  *
  * Author:     Kate Leet <kate@cutefishos.com>
  *
@@ -33,7 +33,7 @@ public:
 
     Q_INVOKABLE void uninstall(const QString &desktopFile);
 
-    Q_INVOKABLE bool isCutefishOS();
+    Q_INVOKABLE bool isMatsyaOS();
 
 private:
     QDBusInterface m_iface;

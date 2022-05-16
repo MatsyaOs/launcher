@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2021 CutefishOS.
  *
- * Author:     Reion Wong <reion@cutefishos.com>
+ * Author:     Reion Wong <reion@matsyaos.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -47,7 +47,7 @@ static QByteArray detectDesktopEnvironment()
 LauncherModel::LauncherModel(QObject *parent)
     : QAbstractListModel(parent)
     , m_fileWatcher(new QFileSystemWatcher(this))
-    , m_settings("cutefishos", "launcher-applist", this)
+    , m_settings("matsyaos", "launcher-applist", this)
     , m_mode(NormalMode)
     , m_firstLoad(false)
 {
@@ -170,9 +170,9 @@ void LauncherModel::sendToDock(const QString &key)
     int index = findById(key);
 
     if (index != -1) {
-        QDBusMessage message = QDBusMessage::createMethodCall("com.cutefish.Dock",
+        QDBusMessage message = QDBusMessage::createMethodCall("com.matsya.Dock",
                                                               "/Dock",
-                                                              "com.cutefish.Dock",
+                                                              "com.matsya.Dock",
                                                                "add");
         message.setArguments(QList<QVariant>() << key);
         QDBusConnection::sessionBus().asyncCall(message);
@@ -198,9 +198,9 @@ void LauncherModel::removeFromDock(const QString &desktop)
     int index = findById(desktop);
 
     if (index != -1) {
-        QDBusMessage message = QDBusMessage::createMethodCall("com.cutefish.Dock",
+        QDBusMessage message = QDBusMessage::createMethodCall("com.matsya.Dock",
                                                               "/Dock",
-                                                              "com.cutefish.Dock",
+                                                              "com.matsya.Dock",
                                                                "remove");
         message.setArguments(QList<QVariant>() << desktop);
         QDBusConnection::sessionBus().asyncCall(message);
@@ -299,8 +299,8 @@ bool LauncherModel::launch(const QString &path)
         }
 
         // Because launcher has hidden animation,
-        // cutefish-screenshot needs to be processed.
-        if (cmd == "cutefish-screenshot") {
+        // matsya-screenshot needs to be processed.
+        if (cmd == "matsya-screenshot") {
             ProcessProvider::startDetached(cmd, QStringList() << "-d" << "200");
         } else {
             ProcessProvider::startDetached(cmd, args);

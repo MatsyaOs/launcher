@@ -1,6 +1,6 @@
 # Launcher
 
-CutefishOS's full-screen application launcher.
+Matsya's full-screen application launcher.
 
 ## Dependencies
 Arch Linux/Manjaro Dependencies

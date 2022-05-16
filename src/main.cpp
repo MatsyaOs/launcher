@@ -34,15 +34,15 @@
 #include <QTranslator>
 #include <QLocale>
 
-#define DBUS_NAME "com.cutefish.Launcher"
+#define DBUS_NAME "com.matsya.Launcher"
 #define DBUS_PATH "/Launcher"
-#define DBUS_INTERFACE "com.cutefish.Launcher"
+#define DBUS_INTERFACE "com.matsya.Launcher"
 
 int main(int argc, char *argv[])
 {
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 
-    QByteArray uri = "Cutefish.Launcher";
+    QByteArray uri = "Matsya.Launcher";
     qmlRegisterType<LauncherModel>(uri, 1, 0, "LauncherModel");
     qmlRegisterType<PageModel>(uri, 1, 0, "PageModel");
     qmlRegisterType<IconItem>(uri, 1, 0, "IconItem");
@@ -55,7 +55,7 @@ int main(int argc, char *argv[])
 #endif
 
     QApplication app(argc, argv);
-    app.setApplicationName(QStringLiteral("cutefish-launcher"));
+    app.setApplicationName(QStringLiteral("matsya-launcher"));
 
     QPixmapCache::setCacheLimit(2048);
 
@@ -76,7 +76,7 @@ int main(int argc, char *argv[])
     }
 
     QLocale locale;
-    QString qmFilePath = QString("%1/%2.qm").arg("/usr/share/cutefish-launcher/translations/").arg(locale.name());
+    QString qmFilePath = QString("%1/%2.qm").arg("/usr/share/matsya-launcher/translations/").arg(locale.name());
     if (QFile::exists(qmFilePath)) {
         QTranslator *translator = new QTranslator(app.instance());
         if (translator->load(qmFilePath)) {

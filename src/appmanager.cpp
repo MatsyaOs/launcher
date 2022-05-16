@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2021 CutefishOS.
  *
- * Author:     Kate Leet <kate@cutefishos.com>
+ * Author:     Kate Leet <kate@matsyaos.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -22,9 +22,9 @@
 
 AppManager::AppManager(QObject *parent)
     : QObject(parent)
-    , m_iface("com.cutefish.Daemon",
+    , m_iface("com.matsya.Daemon",
               "/AppManager",
-              "com.cutefish.AppManager", QDBusConnection::systemBus())
+              "com.matsya.AppManager", QDBusConnection::systemBus())
 {
 
 }
@@ -36,7 +36,7 @@ void AppManager::uninstall(const QString &desktopFile)
     }
 }
 
-bool AppManager::isCutefishOS()
+bool AppManager::isMatsyaOS()
 {
-    return QFile::exists("/etc/cutefishos");
+    return QFile::exists("/etc/matsyaos");
 }

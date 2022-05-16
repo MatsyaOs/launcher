@@ -20,9 +20,9 @@
 import QtQuick 2.12
 import QtQuick.Controls 2.12
 import QtQuick.Layouts 1.12
-import FishUI 1.0 as FishUI
+import MatsyaUI 1.0 as MatsyaUI
 
-import Cutefish.Launcher 1.0
+import Matsya.Launcher 1.0
 
 ListView {
     id: control
@@ -32,7 +32,7 @@ ListView {
     property var sourceModel: launcherModel
     property var modelCount: sourceModel.count
 
-    property int iconSize: root.iconSize + FishUI.Units.largeSpacing * 2
+    property int iconSize: root.iconSize + MatsyaUI.Units.largeSpacing * 2
     property int cellWidth: iconSize + calcExtraSpacing(iconSize, control.width)
     property int cellHeight: iconSize + calcExtraSpacing(iconSize, control.height)
 

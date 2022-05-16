@@ -22,8 +22,8 @@ import QtQuick.Controls 2.12
 import QtGraphicalEffects 1.0
 import QtQuick.Window 2.12
 import QtQuick.Layouts 1.12
-import FishUI 1.0 as FishUI
-import Cutefish.Launcher 1.0
+import MatsyaUI 1.0 as MatsyaUI
+import Matsya.Launcher 1.0
 
 Item {
     id: control
@@ -91,7 +91,7 @@ Item {
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.top: parent.top
         anchors.bottom: label.top
-        anchors.margins: FishUI.Units.largeSpacing * 2
+        anchors.margins: MatsyaUI.Units.largeSpacing * 2
 
         width: height
         height: width
@@ -109,7 +109,7 @@ Item {
         }
     }
 
-    FishUI.DesktopMenu {
+    MatsyaUI.DesktopMenu {
         id: _itemMenu
 
         MenuItem {
@@ -207,10 +207,10 @@ Item {
         anchors {
             horizontalCenter: parent.horizontalCenter
             bottom: label.top
-            bottomMargin: FishUI.Units.smallSpacing
+            bottomMargin: MatsyaUI.Units.smallSpacing
         }
 
-        color: FishUI.Theme.highlightColor
+        color: MatsyaUI.Theme.highlightColor
         radius: height / 2
     }
 
@@ -220,7 +220,7 @@ Item {
         anchors {
             horizontalCenter: parent.horizontalCenter
             bottom: parent.bottom
-            margins: FishUI.Units.smallSpacing
+            margins: MatsyaUI.Units.smallSpacing
         }
 
         visible: !dragStarted
@@ -232,7 +232,7 @@ Item {
         wrapMode: "WordWrap"
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignTop
-        width: parent.width - 2 * FishUI.Units.smallSpacing
+        width: parent.width - 2 * MatsyaUI.Units.smallSpacing
         height: fontMetrics.height * 2
         color: "white"
 
