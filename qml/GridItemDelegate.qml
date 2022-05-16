@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2021 CutefishOS.
  *
- * Author:     Reoin Wong <reion@cutefishos.com>
+ * Author:     Reoin Wong <reion@matsyaos.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -38,7 +38,7 @@ Item {
 
     Drag.active: iconMouseArea.drag.active
     Drag.mimeData: [model.appId]
-    Drag.keys: ["cutefish-launcher"]
+    Drag.keys: ["matsya-launcher"]
     Drag.dragType: Drag.Automatic
     Drag.supportedActions: Qt.MoveAction
     Drag.hotSpot.x: icon.width / 2
@@ -166,7 +166,7 @@ Item {
             if (mouse.button == Qt.LeftButton)
                 launcherModel.launch(model.appId)
             else if (mouse.button == Qt.RightButton) {
-                uninstallItem.visible = appManager.isCutefishOS()
+                uninstallItem.visible = appManager.isMatsyaOS()
                 _itemMenu.updateActions()
                 _itemMenu.popup()
             }

@@ -1,5 +1,5 @@
--I/home/tokyo/clone/RebootOS/launcher
--I/home/tokyo/clone/RebootOS/launcher/build
+-I/home/tokyo/Documents/GitHub/launcher
+-I/home/tokyo/Documents/GitHub/launcher/build
 -o
-/home/tokyo/clone/RebootOS/launcher/build/launcheradaptor.moc
-/home/tokyo/clone/RebootOS/launcher/build/launcheradaptor.h
+/home/tokyo/Documents/GitHub/launcher/build/launcheradaptor.moc
+/home/tokyo/Documents/GitHub/launcher/build/launcheradaptor.h

@@ -23,7 +23,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_LauncherAdaptor_t {
     QByteArrayData data[9];
-    char stringdata0[244];
+    char stringdata0[240];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -34,20 +34,20 @@ static const qt_meta_stringdata_LauncherAdaptor_t qt_meta_stringdata_LauncherAda
     {
 QT_MOC_LITERAL(0, 0, 15), // "LauncherAdaptor"
 QT_MOC_LITERAL(1, 16, 15), // "D-Bus Interface"
-QT_MOC_LITERAL(2, 32, 21), // "com.cutefish.Launcher"
-QT_MOC_LITERAL(3, 54, 19), // "D-Bus Introspection"
-QT_MOC_LITERAL(4, 74, 151), // "  <interface name=\"com.cutef..."
-QT_MOC_LITERAL(5, 213, 4), // "hide"
-QT_MOC_LITERAL(6, 218, 0), // ""
-QT_MOC_LITERAL(7, 219, 4), // "show"
-QT_MOC_LITERAL(8, 224, 6) // "toggle"
+QT_MOC_LITERAL(2, 32, 19), // "com.matsya.Launcher"
+QT_MOC_LITERAL(3, 52, 19), // "D-Bus Introspection"
+QT_MOC_LITERAL(4, 72, 149), // "  <interface name=\"com.matsy..."
+QT_MOC_LITERAL(5, 209, 4), // "hide"
+QT_MOC_LITERAL(6, 214, 0), // ""
+QT_MOC_LITERAL(7, 215, 4), // "show"
+QT_MOC_LITERAL(8, 220, 6) // "toggle"
 
     },
     "LauncherAdaptor\0D-Bus Interface\0"
-    "com.cutefish.Launcher\0D-Bus Introspection\0"
-    "  <interface name=\"com.cutefish.Launcher\">\n    <method name=\"show\""
-    "/>\n    <method name=\"hide\"/>\n    <method name=\"toggle\"/>\n  </in"
-    "terface>\n\0"
+    "com.matsya.Launcher\0D-Bus Introspection\0"
+    "  <interface name=\"com.matsya.Launcher\">\n    <method name=\"show\"/"
+    ">\n    <method name=\"hide\"/>\n    <method name=\"toggle\"/>\n  </int"
+    "erface>\n\0"
     "hide\0\0show\0toggle"
 };
 #undef QT_MOC_LITERAL

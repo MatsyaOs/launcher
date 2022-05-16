@@ -1,6 +1,6 @@
 # Launcher
 
-Matsya's full-screen application launcher.
+MatsyaOS's full-screen application launcher.
 
 ## Dependencies
 Arch Linux/Manjaro Dependencies

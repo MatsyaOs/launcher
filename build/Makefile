@@ -67,10 +67,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tokyo/clone/RebootOS/launcher
+CMAKE_SOURCE_DIR = /home/tokyo/Documents/GitHub/launcher
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tokyo/clone/RebootOS/launcher/build
+CMAKE_BINARY_DIR = /home/tokyo/Documents/GitHub/launcher/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -145,9 +145,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/launcher/build/CMakeFiles /home/tokyo/clone/RebootOS/launcher/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/launcher/build/CMakeFiles /home/tokyo/Documents/GitHub/launcher/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/clone/RebootOS/launcher/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tokyo/Documents/GitHub/launcher/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -189,17 +189,17 @@ translations/fast:
 .PHONY : translations/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-launcher
+# Target rules for targets named matsya-launcher
 
 # Build rule for target.
-cutefish-launcher: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-launcher
-.PHONY : cutefish-launcher
+matsya-launcher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-launcher
+.PHONY : matsya-launcher
 
 # fast build rule for target.
-cutefish-launcher/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/build
-.PHONY : cutefish-launcher/fast
+matsya-launcher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/build
+.PHONY : matsya-launcher/fast
 
 #=============================================================================
 # Target rules for targets named KF5WindowSystem_QCH
@@ -215,71 +215,17 @@ KF5WindowSystem_QCH/fast:
 .PHONY : KF5WindowSystem_QCH/fast
 
 #=============================================================================
-# Target rules for targets named cutefish-launcher_autogen
+# Target rules for targets named matsya-launcher_autogen
 
 # Build rule for target.
-cutefish-launcher_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cutefish-launcher_autogen
-.PHONY : cutefish-launcher_autogen
+matsya-launcher_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matsya-launcher_autogen
+.PHONY : matsya-launcher_autogen
 
 # fast build rule for target.
-cutefish-launcher_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher_autogen.dir/build.make CMakeFiles/cutefish-launcher_autogen.dir/build
-.PHONY : cutefish-launcher_autogen/fast
-
-cutefish-launcher_autogen/EWIEGA46WW/qrc_qml.o: cutefish-launcher_autogen/EWIEGA46WW/qrc_qml.cpp.o
-
-.PHONY : cutefish-launcher_autogen/EWIEGA46WW/qrc_qml.o
-
-# target to build an object file
-cutefish-launcher_autogen/EWIEGA46WW/qrc_qml.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/cutefish-launcher_autogen/EWIEGA46WW/qrc_qml.cpp.o
-.PHONY : cutefish-launcher_autogen/EWIEGA46WW/qrc_qml.cpp.o
-
-cutefish-launcher_autogen/EWIEGA46WW/qrc_qml.i: cutefish-launcher_autogen/EWIEGA46WW/qrc_qml.cpp.i
-
-.PHONY : cutefish-launcher_autogen/EWIEGA46WW/qrc_qml.i
-
-# target to preprocess a source file
-cutefish-launcher_autogen/EWIEGA46WW/qrc_qml.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/cutefish-launcher_autogen/EWIEGA46WW/qrc_qml.cpp.i
-.PHONY : cutefish-launcher_autogen/EWIEGA46WW/qrc_qml.cpp.i
-
-cutefish-launcher_autogen/EWIEGA46WW/qrc_qml.s: cutefish-launcher_autogen/EWIEGA46WW/qrc_qml.cpp.s
-
-.PHONY : cutefish-launcher_autogen/EWIEGA46WW/qrc_qml.s
-
-# target to generate assembly for a file
-cutefish-launcher_autogen/EWIEGA46WW/qrc_qml.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/cutefish-launcher_autogen/EWIEGA46WW/qrc_qml.cpp.s
-.PHONY : cutefish-launcher_autogen/EWIEGA46WW/qrc_qml.cpp.s
-
-cutefish-launcher_autogen/mocs_compilation.o: cutefish-launcher_autogen/mocs_compilation.cpp.o
-
-.PHONY : cutefish-launcher_autogen/mocs_compilation.o
-
-# target to build an object file
-cutefish-launcher_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/cutefish-launcher_autogen/mocs_compilation.cpp.o
-.PHONY : cutefish-launcher_autogen/mocs_compilation.cpp.o
-
-cutefish-launcher_autogen/mocs_compilation.i: cutefish-launcher_autogen/mocs_compilation.cpp.i
-
-.PHONY : cutefish-launcher_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-cutefish-launcher_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/cutefish-launcher_autogen/mocs_compilation.cpp.i
-.PHONY : cutefish-launcher_autogen/mocs_compilation.cpp.i
-
-cutefish-launcher_autogen/mocs_compilation.s: cutefish-launcher_autogen/mocs_compilation.cpp.s
-
-.PHONY : cutefish-launcher_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-cutefish-launcher_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/cutefish-launcher_autogen/mocs_compilation.cpp.s
-.PHONY : cutefish-launcher_autogen/mocs_compilation.cpp.s
+matsya-launcher_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher_autogen.dir/build.make CMakeFiles/matsya-launcher_autogen.dir/build
+.PHONY : matsya-launcher_autogen/fast
 
 launcheradaptor.o: launcheradaptor.cpp.o
 
@@ -287,7 +233,7 @@ launcheradaptor.o: launcheradaptor.cpp.o
 
 # target to build an object file
 launcheradaptor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/launcheradaptor.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/launcheradaptor.cpp.o
 .PHONY : launcheradaptor.cpp.o
 
 launcheradaptor.i: launcheradaptor.cpp.i
@@ -296,7 +242,7 @@ launcheradaptor.i: launcheradaptor.cpp.i
 
 # target to preprocess a source file
 launcheradaptor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/launcheradaptor.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/launcheradaptor.cpp.i
 .PHONY : launcheradaptor.cpp.i
 
 launcheradaptor.s: launcheradaptor.cpp.s
@@ -305,8 +251,62 @@ launcheradaptor.s: launcheradaptor.cpp.s
 
 # target to generate assembly for a file
 launcheradaptor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/launcheradaptor.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/launcheradaptor.cpp.s
 .PHONY : launcheradaptor.cpp.s
+
+matsya-launcher_autogen/EWIEGA46WW/qrc_qml.o: matsya-launcher_autogen/EWIEGA46WW/qrc_qml.cpp.o
+
+.PHONY : matsya-launcher_autogen/EWIEGA46WW/qrc_qml.o
+
+# target to build an object file
+matsya-launcher_autogen/EWIEGA46WW/qrc_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/matsya-launcher_autogen/EWIEGA46WW/qrc_qml.cpp.o
+.PHONY : matsya-launcher_autogen/EWIEGA46WW/qrc_qml.cpp.o
+
+matsya-launcher_autogen/EWIEGA46WW/qrc_qml.i: matsya-launcher_autogen/EWIEGA46WW/qrc_qml.cpp.i
+
+.PHONY : matsya-launcher_autogen/EWIEGA46WW/qrc_qml.i
+
+# target to preprocess a source file
+matsya-launcher_autogen/EWIEGA46WW/qrc_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/matsya-launcher_autogen/EWIEGA46WW/qrc_qml.cpp.i
+.PHONY : matsya-launcher_autogen/EWIEGA46WW/qrc_qml.cpp.i
+
+matsya-launcher_autogen/EWIEGA46WW/qrc_qml.s: matsya-launcher_autogen/EWIEGA46WW/qrc_qml.cpp.s
+
+.PHONY : matsya-launcher_autogen/EWIEGA46WW/qrc_qml.s
+
+# target to generate assembly for a file
+matsya-launcher_autogen/EWIEGA46WW/qrc_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/matsya-launcher_autogen/EWIEGA46WW/qrc_qml.cpp.s
+.PHONY : matsya-launcher_autogen/EWIEGA46WW/qrc_qml.cpp.s
+
+matsya-launcher_autogen/mocs_compilation.o: matsya-launcher_autogen/mocs_compilation.cpp.o
+
+.PHONY : matsya-launcher_autogen/mocs_compilation.o
+
+# target to build an object file
+matsya-launcher_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/matsya-launcher_autogen/mocs_compilation.cpp.o
+.PHONY : matsya-launcher_autogen/mocs_compilation.cpp.o
+
+matsya-launcher_autogen/mocs_compilation.i: matsya-launcher_autogen/mocs_compilation.cpp.i
+
+.PHONY : matsya-launcher_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+matsya-launcher_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/matsya-launcher_autogen/mocs_compilation.cpp.i
+.PHONY : matsya-launcher_autogen/mocs_compilation.cpp.i
+
+matsya-launcher_autogen/mocs_compilation.s: matsya-launcher_autogen/mocs_compilation.cpp.s
+
+.PHONY : matsya-launcher_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+matsya-launcher_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/matsya-launcher_autogen/mocs_compilation.cpp.s
+.PHONY : matsya-launcher_autogen/mocs_compilation.cpp.s
 
 src/appitem.o: src/appitem.cpp.o
 
@@ -314,7 +314,7 @@ src/appitem.o: src/appitem.cpp.o
 
 # target to build an object file
 src/appitem.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/appitem.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/appitem.cpp.o
 .PHONY : src/appitem.cpp.o
 
 src/appitem.i: src/appitem.cpp.i
@@ -323,7 +323,7 @@ src/appitem.i: src/appitem.cpp.i
 
 # target to preprocess a source file
 src/appitem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/appitem.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/appitem.cpp.i
 .PHONY : src/appitem.cpp.i
 
 src/appitem.s: src/appitem.cpp.s
@@ -332,7 +332,7 @@ src/appitem.s: src/appitem.cpp.s
 
 # target to generate assembly for a file
 src/appitem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/appitem.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/appitem.cpp.s
 .PHONY : src/appitem.cpp.s
 
 src/appmanager.o: src/appmanager.cpp.o
@@ -341,7 +341,7 @@ src/appmanager.o: src/appmanager.cpp.o
 
 # target to build an object file
 src/appmanager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/appmanager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/appmanager.cpp.o
 .PHONY : src/appmanager.cpp.o
 
 src/appmanager.i: src/appmanager.cpp.i
@@ -350,7 +350,7 @@ src/appmanager.i: src/appmanager.cpp.i
 
 # target to preprocess a source file
 src/appmanager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/appmanager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/appmanager.cpp.i
 .PHONY : src/appmanager.cpp.i
 
 src/appmanager.s: src/appmanager.cpp.s
@@ -359,7 +359,7 @@ src/appmanager.s: src/appmanager.cpp.s
 
 # target to generate assembly for a file
 src/appmanager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/appmanager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/appmanager.cpp.s
 .PHONY : src/appmanager.cpp.s
 
 src/desktopproperties.o: src/desktopproperties.cpp.o
@@ -368,7 +368,7 @@ src/desktopproperties.o: src/desktopproperties.cpp.o
 
 # target to build an object file
 src/desktopproperties.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/desktopproperties.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/desktopproperties.cpp.o
 .PHONY : src/desktopproperties.cpp.o
 
 src/desktopproperties.i: src/desktopproperties.cpp.i
@@ -377,7 +377,7 @@ src/desktopproperties.i: src/desktopproperties.cpp.i
 
 # target to preprocess a source file
 src/desktopproperties.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/desktopproperties.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/desktopproperties.cpp.i
 .PHONY : src/desktopproperties.cpp.i
 
 src/desktopproperties.s: src/desktopproperties.cpp.s
@@ -386,7 +386,7 @@ src/desktopproperties.s: src/desktopproperties.cpp.s
 
 # target to generate assembly for a file
 src/desktopproperties.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/desktopproperties.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/desktopproperties.cpp.s
 .PHONY : src/desktopproperties.cpp.s
 
 src/iconitem.o: src/iconitem.cpp.o
@@ -395,7 +395,7 @@ src/iconitem.o: src/iconitem.cpp.o
 
 # target to build an object file
 src/iconitem.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/iconitem.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/iconitem.cpp.o
 .PHONY : src/iconitem.cpp.o
 
 src/iconitem.i: src/iconitem.cpp.i
@@ -404,7 +404,7 @@ src/iconitem.i: src/iconitem.cpp.i
 
 # target to preprocess a source file
 src/iconitem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/iconitem.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/iconitem.cpp.i
 .PHONY : src/iconitem.cpp.i
 
 src/iconitem.s: src/iconitem.cpp.s
@@ -413,7 +413,7 @@ src/iconitem.s: src/iconitem.cpp.s
 
 # target to generate assembly for a file
 src/iconitem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/iconitem.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/iconitem.cpp.s
 .PHONY : src/iconitem.cpp.s
 
 src/iconthemeimageprovider.o: src/iconthemeimageprovider.cpp.o
@@ -422,7 +422,7 @@ src/iconthemeimageprovider.o: src/iconthemeimageprovider.cpp.o
 
 # target to build an object file
 src/iconthemeimageprovider.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/iconthemeimageprovider.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/iconthemeimageprovider.cpp.o
 .PHONY : src/iconthemeimageprovider.cpp.o
 
 src/iconthemeimageprovider.i: src/iconthemeimageprovider.cpp.i
@@ -431,7 +431,7 @@ src/iconthemeimageprovider.i: src/iconthemeimageprovider.cpp.i
 
 # target to preprocess a source file
 src/iconthemeimageprovider.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/iconthemeimageprovider.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/iconthemeimageprovider.cpp.i
 .PHONY : src/iconthemeimageprovider.cpp.i
 
 src/iconthemeimageprovider.s: src/iconthemeimageprovider.cpp.s
@@ -440,7 +440,7 @@ src/iconthemeimageprovider.s: src/iconthemeimageprovider.cpp.s
 
 # target to generate assembly for a file
 src/iconthemeimageprovider.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/iconthemeimageprovider.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/iconthemeimageprovider.cpp.s
 .PHONY : src/iconthemeimageprovider.cpp.s
 
 src/launcher.o: src/launcher.cpp.o
@@ -449,7 +449,7 @@ src/launcher.o: src/launcher.cpp.o
 
 # target to build an object file
 src/launcher.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/launcher.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/launcher.cpp.o
 .PHONY : src/launcher.cpp.o
 
 src/launcher.i: src/launcher.cpp.i
@@ -458,7 +458,7 @@ src/launcher.i: src/launcher.cpp.i
 
 # target to preprocess a source file
 src/launcher.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/launcher.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/launcher.cpp.i
 .PHONY : src/launcher.cpp.i
 
 src/launcher.s: src/launcher.cpp.s
@@ -467,7 +467,7 @@ src/launcher.s: src/launcher.cpp.s
 
 # target to generate assembly for a file
 src/launcher.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/launcher.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/launcher.cpp.s
 .PHONY : src/launcher.cpp.s
 
 src/launchermodel.o: src/launchermodel.cpp.o
@@ -476,7 +476,7 @@ src/launchermodel.o: src/launchermodel.cpp.o
 
 # target to build an object file
 src/launchermodel.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/launchermodel.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/launchermodel.cpp.o
 .PHONY : src/launchermodel.cpp.o
 
 src/launchermodel.i: src/launchermodel.cpp.i
@@ -485,7 +485,7 @@ src/launchermodel.i: src/launchermodel.cpp.i
 
 # target to preprocess a source file
 src/launchermodel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/launchermodel.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/launchermodel.cpp.i
 .PHONY : src/launchermodel.cpp.i
 
 src/launchermodel.s: src/launchermodel.cpp.s
@@ -494,7 +494,7 @@ src/launchermodel.s: src/launchermodel.cpp.s
 
 # target to generate assembly for a file
 src/launchermodel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/launchermodel.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/launchermodel.cpp.s
 .PHONY : src/launchermodel.cpp.s
 
 src/listmodelmanager.o: src/listmodelmanager.cpp.o
@@ -503,7 +503,7 @@ src/listmodelmanager.o: src/listmodelmanager.cpp.o
 
 # target to build an object file
 src/listmodelmanager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/listmodelmanager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/listmodelmanager.cpp.o
 .PHONY : src/listmodelmanager.cpp.o
 
 src/listmodelmanager.i: src/listmodelmanager.cpp.i
@@ -512,7 +512,7 @@ src/listmodelmanager.i: src/listmodelmanager.cpp.i
 
 # target to preprocess a source file
 src/listmodelmanager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/listmodelmanager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/listmodelmanager.cpp.i
 .PHONY : src/listmodelmanager.cpp.i
 
 src/listmodelmanager.s: src/listmodelmanager.cpp.s
@@ -521,7 +521,7 @@ src/listmodelmanager.s: src/listmodelmanager.cpp.s
 
 # target to generate assembly for a file
 src/listmodelmanager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/listmodelmanager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/listmodelmanager.cpp.s
 .PHONY : src/listmodelmanager.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -530,7 +530,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -539,7 +539,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -548,7 +548,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/pagemodel.o: src/pagemodel.cpp.o
@@ -557,7 +557,7 @@ src/pagemodel.o: src/pagemodel.cpp.o
 
 # target to build an object file
 src/pagemodel.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/pagemodel.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/pagemodel.cpp.o
 .PHONY : src/pagemodel.cpp.o
 
 src/pagemodel.i: src/pagemodel.cpp.i
@@ -566,7 +566,7 @@ src/pagemodel.i: src/pagemodel.cpp.i
 
 # target to preprocess a source file
 src/pagemodel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/pagemodel.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/pagemodel.cpp.i
 .PHONY : src/pagemodel.cpp.i
 
 src/pagemodel.s: src/pagemodel.cpp.s
@@ -575,7 +575,7 @@ src/pagemodel.s: src/pagemodel.cpp.s
 
 # target to generate assembly for a file
 src/pagemodel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/pagemodel.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/pagemodel.cpp.s
 .PHONY : src/pagemodel.cpp.s
 
 src/processprovider.o: src/processprovider.cpp.o
@@ -584,7 +584,7 @@ src/processprovider.o: src/processprovider.cpp.o
 
 # target to build an object file
 src/processprovider.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/processprovider.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/processprovider.cpp.o
 .PHONY : src/processprovider.cpp.o
 
 src/processprovider.i: src/processprovider.cpp.i
@@ -593,7 +593,7 @@ src/processprovider.i: src/processprovider.cpp.i
 
 # target to preprocess a source file
 src/processprovider.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/processprovider.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/processprovider.cpp.i
 .PHONY : src/processprovider.cpp.i
 
 src/processprovider.s: src/processprovider.cpp.s
@@ -602,7 +602,7 @@ src/processprovider.s: src/processprovider.cpp.s
 
 # target to generate assembly for a file
 src/processprovider.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/processprovider.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/processprovider.cpp.s
 .PHONY : src/processprovider.cpp.s
 
 src/ucunits.o: src/ucunits.cpp.o
@@ -611,7 +611,7 @@ src/ucunits.o: src/ucunits.cpp.o
 
 # target to build an object file
 src/ucunits.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/ucunits.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/ucunits.cpp.o
 .PHONY : src/ucunits.cpp.o
 
 src/ucunits.i: src/ucunits.cpp.i
@@ -620,7 +620,7 @@ src/ucunits.i: src/ucunits.cpp.i
 
 # target to preprocess a source file
 src/ucunits.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/ucunits.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/ucunits.cpp.i
 .PHONY : src/ucunits.cpp.i
 
 src/ucunits.s: src/ucunits.cpp.s
@@ -629,7 +629,7 @@ src/ucunits.s: src/ucunits.cpp.s
 
 # target to generate assembly for a file
 src/ucunits.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cutefish-launcher.dir/build.make CMakeFiles/cutefish-launcher.dir/src/ucunits.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matsya-launcher.dir/build.make CMakeFiles/matsya-launcher.dir/src/ucunits.cpp.s
 .PHONY : src/ucunits.cpp.s
 
 # Help Target
@@ -645,18 +645,18 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... KF5WindowSystem_QCH"
-	@echo "... cutefish-launcher_autogen"
+	@echo "... matsya-launcher_autogen"
 	@echo "... translations"
-	@echo "... cutefish-launcher"
-	@echo "... cutefish-launcher_autogen/EWIEGA46WW/qrc_qml.o"
-	@echo "... cutefish-launcher_autogen/EWIEGA46WW/qrc_qml.i"
-	@echo "... cutefish-launcher_autogen/EWIEGA46WW/qrc_qml.s"
-	@echo "... cutefish-launcher_autogen/mocs_compilation.o"
-	@echo "... cutefish-launcher_autogen/mocs_compilation.i"
-	@echo "... cutefish-launcher_autogen/mocs_compilation.s"
+	@echo "... matsya-launcher"
 	@echo "... launcheradaptor.o"
 	@echo "... launcheradaptor.i"
 	@echo "... launcheradaptor.s"
+	@echo "... matsya-launcher_autogen/EWIEGA46WW/qrc_qml.o"
+	@echo "... matsya-launcher_autogen/EWIEGA46WW/qrc_qml.i"
+	@echo "... matsya-launcher_autogen/EWIEGA46WW/qrc_qml.s"
+	@echo "... matsya-launcher_autogen/mocs_compilation.o"
+	@echo "... matsya-launcher_autogen/mocs_compilation.i"
+	@echo "... matsya-launcher_autogen/mocs_compilation.s"
 	@echo "... src/appitem.o"
 	@echo "... src/appitem.i"
 	@echo "... src/appitem.s"

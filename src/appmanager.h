@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 MatsyaOS.
+ * Copyright (C) 2021 CutefishOS.
  *
  * Author:     Kate Leet <kate@cutefishos.com>
  *
