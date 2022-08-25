@@ -1,0 +1,5 @@
+-I/home/tokyo/matsyaos/matsyaos-dependencies/launcher
+-I/home/tokyo/matsyaos/matsyaos-dependencies/launcher/build
+-o
+/home/tokyo/matsyaos/matsyaos-dependencies/launcher/build/launcheradaptor.moc
+/home/tokyo/matsyaos/matsyaos-dependencies/launcher/build/launcheradaptor.h
